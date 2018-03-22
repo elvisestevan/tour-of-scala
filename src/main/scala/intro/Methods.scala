@@ -13,4 +13,11 @@ object Methods extends App {
   def name: String = System.getProperty("user.name")
 
   println("Hello, " + name + "!")
+
+  def getSquareString(input: Double): String = {
+    val square: Double = input * input
+    square.toString
+  }
+
+  println(getSquareString(2.5))
 }
