@@ -10,4 +10,11 @@ object InteragindoComClasse extends App {
 
   println(point)
 
+  val idFactory = IdFactory.create()
+  println("idFactory: " + idFactory)
+
+  val idFactory2 = IdFactory.create()
+  println("idFactory2: " + idFactory2)
+
+
 }
