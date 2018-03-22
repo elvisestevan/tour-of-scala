@@ -6,4 +6,8 @@ object Functions extends App {
 
   println(addOne(3))
 
+  val getTheAnswer = () => 42;
+
+  println(getTheAnswer())
+
 }
