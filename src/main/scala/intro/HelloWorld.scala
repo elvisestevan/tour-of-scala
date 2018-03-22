@@ -10,4 +10,8 @@ object HelloWorld extends App {
   val y: Int = 2 + 2
   println(y)
 
+  println({
+    x + 1
+  })
+
 }
