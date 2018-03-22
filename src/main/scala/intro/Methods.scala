@@ -10,4 +10,7 @@ object Methods extends App {
 
   println(addThenMultiply(3, 2)(4))
 
+  def name: String = System.getProperty("user.name")
+
+  println("Hello, " + name + "!")
 }
